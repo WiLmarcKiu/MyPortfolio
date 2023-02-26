@@ -7,7 +7,7 @@
     --third-color: #777;
 
     /* Hover Colors */
-    --hover-color: #614FD0;
+    --hover-color: #302191;
 
     /* Background Colors */
     --body-bg-color: #FEFEFE;
@@ -1052,6 +1052,7 @@ footer #wave4 {
         -moz-transition: .5s ease;
         -ms-transition: .5s ease;
         -o-transition: .5s ease;
+        text-align: center;
 }
 
     header .navbar .navigation.active .nav-items {
