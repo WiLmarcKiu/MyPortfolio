@@ -1,6 +1,6 @@
 <?php
 // error_reporting(0);
-include 'sendEmail.php';
+// include 'sendEmail.php';
 ?>
 
 <!doctype html>
@@ -18,11 +18,11 @@ include 'sendEmail.php';
 <body>
 
     <!-- ALERT -->
-    <!-- <div class="alert-success">
+    <div class="alert-success hide">
         <span>Terima kasih sudah menghubungi saya.</span>
     </div>
 
-    <div class="alert-error">
+    <!-- <div class="alert-error">
         <span>Ada yang salah! Silakan coba lagi.</span>
     </div> -->
     <!-- END ALERT -->
@@ -30,9 +30,9 @@ include 'sendEmail.php';
 
     <!-- SOCIAL MEDIA -->
     <div class="social">
-        <a href="https://wa.me/6285238970733">WhatsApp<i class="fab fa-whatsapp"></i></a>
-        <a href="https://www.instagram.com/aronkiu_/?hl=id">Instagram<i class="fab fa-instagram"></i></a>
-        <a href="https://www.tiktok.com/@aronkiu?lang=id-ID">Tiktok<i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://wa.me/6285238970733" target="_blank">WhatsApp<i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/aronkiu_/?hl=id" target="_blank">Instagram<i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/WiLmarcKiu" target="_blank">Github<i class="fa-brands fa-github"></i></a>
     </div>
     <!-- END SOCIAL MEDIA -->
 
@@ -73,7 +73,8 @@ include 'sendEmail.php';
                     </div>
                     <a href="#home">Home</a>
                     <a href="#about">Profil</a>
-                    <a href="#proyek">Proyek Saya</a>
+                    <a href="#skill">Keahlian</a>
+                    <a href="#proyek">Proyek</a>
                     <a href="#contact">Hubungi Saya</a>
                 </div>
             </div>
@@ -93,9 +94,9 @@ include 'sendEmail.php';
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-6 col-sm-6" id="text-home" style="padding-top: 4rem;">
                     <h2>Halo, Saya <span class="efek-ketik"></span></h2>
-                    <h3><span>Back End Developer</span></h3>
-                    <p>Saya membuat situs web yang menakjubkan untuk bisnis Anda, berpengalaman dalam pembuatan website.</p>
-                    <a href="#contact" id="btn">Hubungi saya <i class="fas fa-arrow-circle-right"></i></a>
+                    <h3><span>Front End Developer</span></h3>
+                    <p>Saya seorang Frontend Web Developer yang membangun Front-end Situs Web dan Aplikasi Web yang mengarah pada kesuksesan produk secara keseluruhan.</p>
+                    <a href="#contact" id="btn">Hubungi saya</a>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-5" id="img-home" style="padding-top: 2rem;">
                     <img src="img/homeAron.png" class="img" alt="">
@@ -111,7 +112,7 @@ include 'sendEmail.php';
     <!-- ABOUT -->
     <section id="about">
         <div class="container">
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center text-align-center">
                 <div class="heading text-align-center">
                     <h1 class="section-title-01">Profil Saya</h1>
                     <h2 class="section-title-02">Profil Saya</h2>
@@ -119,18 +120,73 @@ include 'sendEmail.php';
                         <div class="garis-bawah"></div>
                     </center>
                 </div>
-                <div data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="top-center" class="col-lg-5 col-md-5 col-sm-6" id="img-about">
-                    <img src="img/about1.png" alt="">
-                </div>
-                <div data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-center" class="col-lg-5 col-md-5 col-sm-6 pt-4" id="deskripsi-about">
-                    <h3>Saya Wilmarc,</h3>
-                    <h4>Seorang <span>Web Developer.</span></h4>
-                    <p>Saya baru menyelesaikan Gelar Sarjana di tahun 2022. Sebagai seorang Back-End Developer saya berfokus pada pembuatan database, scripting, dan arsitektur dari sebuah website. Dalam hal ini fungsi kerja sebuah sistem atau website.</p>
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center" class="col-lg-8 col-md-8 col-sm-10" id="deskripsi-about">
+                    <p>Saya seorang <span>Frontend Web Developer</span> yang membangun Front-end Situs Web dan Aplikasi Web yang mengarah pada kesuksesan produk secara keseluruhan. Saya merancang dan membuat kode yang indah dari hal-hal yang sederhana, dan saya menyukai apa yang saya lakukan. Saya suka membuat produk frontend yang solid dan dapat diskalakan dengan <span>pengalaman pengguna</span> yang luar biasa.</p>
+                    <button class="resume">Resume</button>
                 </div>
             </div>
         </div>
     </section>
     <!-- END ABOUT -->
+
+
+    <!-- SKILLS -->
+    <section id="skill">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-align-center">
+                <div class="heading text-align-center">
+                    <h1 class="section-title-01">Keahlian</h1>
+                    <h2 class="section-title-02">Keahlian</h2>
+                    <center>
+                        <div class="garis-bawah"></div>
+                    </center>
+                </div>
+                <div class="text-center" id="list-skills">
+                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
+                        <i class="fa-brands fa-html5"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                        <i class="fa-brands fa-square-js"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                        <i class="fa-brands fa-php"></i>
+                        <p>PHP</p>
+                    </div>
+                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                        <i class="fa-brands fa-react"></i>
+                        <p>React Js</p>
+                    </div>
+                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                        <i class="fa-solid fa-database"></i>
+                        <p>MySQL</p>
+                    </div>
+                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <p>Bootstrap</p>
+                    </div>
+                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                        <i class="fa-brands fa-npm"></i>
+                        <p>NPM</p>
+                    </div>
+                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <p>GIT</p>
+                    </div>
+                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                        <i class="fa-brands fa-github"></i>
+                        <p>Github</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SKILLS -->
 
 
     <!-- PROYEK SAYA -->
@@ -148,7 +204,7 @@ include 'sendEmail.php';
                     <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek1">
                         <div class="card">
                             <div class="img-proyek">
-                                <img src="img/1.jpg" alt="...">
+                                <img src="img/marketplace.png" alt="...">
                             </div>
                             <div class="overlay overlayPopup">
                                 <div class="text">
@@ -159,61 +215,61 @@ include 'sendEmail.php';
                         </div>
                     </a>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="col-lg-4 col-md-5 col-sm-6">
+                <div data-aos="zoom-out-left" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="col-lg-4 col-md-5 col-sm-6">
                     <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek2">
                         <div class="card">
                             <div class="img-proyek">
-                                <img src="img/9.jpg" alt="...">
+                                <img src="img/movies.png" alt="...">
                             </div>
                             <div class="overlay overlayPopup">
                                 <div class="text">
-                                    <h3>Traveling</h3>
-                                    <p>Sistem Informasi</p>
+                                    <h3>Portal Informasi</h3>
+                                    <p>Movies dengan data API</p>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div data-aos="zoom-out-left" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="col-lg-4 col-md-5 col-sm-6">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="col-lg-4 col-md-5 col-sm-6">
                     <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek3">
                         <div class="card">
                             <div class="img-proyek">
-                                <img src="img/5.jpg" alt="...">
+                                <img src="img/qrcode.png" alt="...">
                             </div>
                             <div class="overlay overlayPopup">
                                 <div class="text">
-                                    <h3>Perkantoran</h3>
-                                    <p>SI + Pengarsipan</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-lg-4 col-md-5 col-sm-6">
-                    <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek4">
-                        <div class="card">
-                            <div class="img-proyek">
-                                <img src="img/3.jpg" alt="...">
-                            </div>
-                            <div class="overlay overlayPopup">
-                                <div class="text">
-                                    <h3>Perkantoran</h3>
-                                    <p>SI + Kenaikan Pangkat</p>
+                                    <h3>Acara & Wedding</h3>
+                                    <p>buku tamu dengan sistem barcode</p>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="col-lg-4 col-md-5 col-sm-6">
-                    <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek5">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek4">
                         <div class="card">
                             <div class="img-proyek">
-                                <img src="img/8.jpg" alt="...">
+                                <img src="img/kkp.png" alt="...">
                             </div>
                             <div class="overlay overlayPopup">
                                 <div class="text">
-                                    <h3>Tempat Ibadah</h3>
-                                    <p>Sistem Informasi</p>
+                                    <h3>Portal Informasi</h3>
+                                    <p>laporan kegiatan harian pegawai</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-lg-4 col-md-5 col-sm-6">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek5">
+                        <div class="card">
+                            <div class="img-proyek">
+                                <img src="img/toko_online.png" alt="...">
+                            </div>
+                            <div class="overlay overlayPopup">
+                                <div class="text">
+                                    <h3>Bisnis & Usaha</h3>
+                                    <p>Toko Online</p>
                                 </div>
                             </div>
                         </div>
@@ -223,12 +279,12 @@ include 'sendEmail.php';
                     <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek6">
                         <div class="card">
                             <div class="img-proyek">
-                                <img src="img/4.jpg" alt="...">
+                                <img src="img/travel.png" alt="...">
                             </div>
                             <div class="overlay overlayPopup">
                                 <div class="text">
-                                    <h3>Bisnis & Usaha</h3>
-                                    <p>Toko Online</p>
+                                    <h3>Portal Informasi</h3>
+                                    <p>Tempat Wisata</p>
                                 </div>
                             </div>
                         </div>
@@ -248,10 +304,36 @@ include 'sendEmail.php';
                     <button type="button" class="close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
                 </div>
                 <div class="modal-body">
-                    <img src="img/coffee.png" alt="">
+                    <img src="img/mobile1.png" alt="">
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat dignissimos eligendi aperiam? Doloremque non quo cumque obcaecati odio labore quod! Suscipit obcaecati, at consequuntur quia sunt natus, nulla mollitia quo, vel cumque cupiditate facilis illo? Obcaecati tenetur rerum nemo aspernatur.
+                        Gambar diatas merupakan tampilan dashboard Website Marketplace CofeeShop.
                     </p>
+                    <p>
+                        Jangan ragu untuk memeriksa Proyek dengan mengunjungi Link Proyek.
+                    </p>
+                    <h5>Tools yang digunakan</h5>
+                    <div class="tools">
+                        <div class="tools-list">
+                            HTML
+                        </div>
+                        <div class="tools-list">
+                            CSS
+                        </div>
+                        <div class="tools-list">
+                            Javascript
+                        </div>
+                        <div class="tools-list">
+                            PHP
+                        </div>
+                        <div class="tools-list">
+                            GIT
+                        </div>
+                        <div class="tools-list">
+                            Github
+                        </div>
+                    </div>
+                    <h5>Lihat Langsung</h5>
+                    <a href="https://github.com/WiLmarcKiu/Marketplace-CofeeShop-FullStack" target="_blank">Link Proyek</a>
                 </div>
             </div>
         </div>
@@ -261,14 +343,40 @@ include 'sendEmail.php';
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h6 class="modal-title" id="staticBackdropLabel">Sistem Informasi</h6>
+                    <h6 class="modal-title" id="staticBackdropLabel">Movies API</h6>
                     <button type="button" class="close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
                 </div>
                 <div class="modal-body">
-                    <img src="img/travel.png" alt="">
+                    <img src="img/mobile2.png" alt="">
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat dignissimos eligendi aperiam? Doloremque non quo cumque obcaecati odio labore quod! Suscipit obcaecati, at consequuntur quia sunt natus, nulla mollitia quo, vel cumque cupiditate facilis illo? Obcaecati tenetur rerum nemo aspernatur.
+                        Gambar diatas merupakan tampilan dashboard Website Movies dengan data API.
                     </p>
+                    <p>
+                        Jangan ragu untuk memeriksa Proyek dengan mengunjungi Link Proyek.
+                    </p>
+                    <h5>Tools yang digunakan</h5>
+                    <div class="tools">
+                        <div class="tools-list">
+                            HTML
+                        </div>
+                        <div class="tools-list">
+                            CSS
+                        </div>
+                        <div class="tools-list">
+                            Javascript
+                        </div>
+                        <div class="tools-list">
+                            React Js
+                        </div>
+                        <div class="tools-list">
+                            GIT
+                        </div>
+                        <div class="tools-list">
+                            Github
+                        </div>
+                    </div>
+                    <h5>Lihat Langsung</h5>
+                    <a href="https://github.com/WiLmarcKiu/Movies-React-Api" target="_blank">Link Proyek</a>
                 </div>
             </div>
         </div>
@@ -278,14 +386,40 @@ include 'sendEmail.php';
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h6 class="modal-title" id="staticBackdropLabel">SI + Pengarsipan</h6>
+                    <h6 class="modal-title" id="staticBackdropLabel">Acara & Wedding</h6>
                     <button type="button" class="close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
                 </div>
                 <div class="modal-body">
-                    <img src="img/dkp.png" alt="">
+                    <img src="img/mobile3.png" alt="">
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat dignissimos eligendi aperiam? Doloremque non quo cumque obcaecati odio labore quod! Suscipit obcaecati, at consequuntur quia sunt natus, nulla mollitia quo, vel cumque cupiditate facilis illo? Obcaecati tenetur rerum nemo aspernatur.
+                        Gambar diatas merupakan tampilan dashboard Website Buku Tamu dan Undangan dengan sistem Barcode.
                     </p>
+                    <p>
+                        Jangan ragu untuk memeriksa Proyek dengan mengunjungi Link Proyek.
+                    </p>
+                    <h5>Tools yang digunakan</h5>
+                    <div class="tools">
+                        <div class="tools-list">
+                            HTML
+                        </div>
+                        <div class="tools-list">
+                            CSS
+                        </div>
+                        <div class="tools-list">
+                            Javascript
+                        </div>
+                        <div class="tools-list">
+                            PHP
+                        </div>
+                        <div class="tools-list">
+                            GIT
+                        </div>
+                        <div class="tools-list">
+                            Github
+                        </div>
+                    </div>
+                    <h5>Lihat Langsung</h5>
+                    <a href="https://github.com/WiLmarcKiu/ChekIn-Barcode-FullStack" target="_blank">Link Proyek</a>
                 </div>
             </div>
         </div>
@@ -295,14 +429,40 @@ include 'sendEmail.php';
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h6 class="modal-title" id="staticBackdropLabel">SI + Kenaikan Pangkat</h6>
+                    <h6 class="modal-title" id="staticBackdropLabel">Laporan Harian</h6>
                     <button type="button" class="close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
                 </div>
                 <div class="modal-body">
-                    <img src="img/kepegawaian.png" alt="">
+                    <img src="img/mobile4.png" alt="">
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat dignissimos eligendi aperiam? Doloremque non quo cumque obcaecati odio labore quod! Suscipit obcaecati, at consequuntur quia sunt natus, nulla mollitia quo, vel cumque cupiditate facilis illo? Obcaecati tenetur rerum nemo aspernatur.
+                        Gambar diatas merupakan tampilan dashboard Website Portal Informasi sekaligus sebagai Aplikasi Laporan Kegiatan Harian Pegawai.
                     </p>
+                    <p>
+                        Jangan ragu untuk memeriksa Proyek dengan mengunjungi Link Proyek.
+                    </p>
+                    <h5>Tools yang digunakan</h5>
+                    <div class="tools">
+                        <div class="tools-list">
+                            HTML
+                        </div>
+                        <div class="tools-list">
+                            CSS
+                        </div>
+                        <div class="tools-list">
+                            Javascript
+                        </div>
+                        <div class="tools-list">
+                            PHP
+                        </div>
+                        <div class="tools-list">
+                            GIT
+                        </div>
+                        <div class="tools-list">
+                            Github
+                        </div>
+                    </div>
+                    <h5>Lihat Langsung</h5>
+                    <a href="https://github.com/WiLmarcKiu/Laporan-Harian-Pegawai-FullStack" target="_blank">Link Proyek</a>
                 </div>
             </div>
         </div>
@@ -312,14 +472,40 @@ include 'sendEmail.php';
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h6 class="modal-title" id="staticBackdropLabel">Sistem Informasi</h6>
+                    <h6 class="modal-title" id="staticBackdropLabel">Toko Online</h6>
                     <button type="button" class="close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
                 </div>
                 <div class="modal-body">
-                    <img src="img/assumpta.png" alt="">
+                    <img src="img/mobile5.png" alt="">
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat dignissimos eligendi aperiam? Doloremque non quo cumque obcaecati odio labore quod! Suscipit obcaecati, at consequuntur quia sunt natus, nulla mollitia quo, vel cumque cupiditate facilis illo? Obcaecati tenetur rerum nemo aspernatur.
+                        Gambar diatas merupakan tampilan dashboard Website Toko Online SkinCare Wanita.
                     </p>
+                    <p>
+                        Jangan ragu untuk memeriksa Proyek dengan mengunjungi Link Proyek.
+                    </p>
+                    <h5>Tools yang digunakan</h5>
+                    <div class="tools">
+                        <div class="tools-list">
+                            HTML
+                        </div>
+                        <div class="tools-list">
+                            CSS
+                        </div>
+                        <div class="tools-list">
+                            Javascript
+                        </div>
+                        <div class="tools-list">
+                            PHP
+                        </div>
+                        <div class="tools-list">
+                            GIT
+                        </div>
+                        <div class="tools-list">
+                            Github
+                        </div>
+                    </div>
+                    <h5>Lihat Langsung</h5>
+                    <a href="https://github.com/WiLmarcKiu/OnlineShop-FullStack" target="_blank">Link Proyek</a>
                 </div>
             </div>
         </div>
@@ -329,14 +515,34 @@ include 'sendEmail.php';
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h6 class="modal-title" id="staticBackdropLabel">Toko Online</h6>
+                    <h6 class="modal-title" id="staticBackdropLabel">Tempat Wisata</h6>
                     <button type="button" class="close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
                 </div>
                 <div class="modal-body">
-                    <img src="img/beyoutiful.png" alt="">
+                    <img src="img/mobile6.png" alt="">
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat dignissimos eligendi aperiam? Doloremque non quo cumque obcaecati odio labore quod! Suscipit obcaecati, at consequuntur quia sunt natus, nulla mollitia quo, vel cumque cupiditate facilis illo? Obcaecati tenetur rerum nemo aspernatur.
+                        Gambar diatas merupakan tampilan dashboard Website Portal Informasi tempat Wisata.
                     </p>
+                    <p>
+                        Jangan ragu untuk memeriksa Proyek dengan mengunjungi Link Proyek.
+                    </p>
+                    <h5>Tools yang digunakan</h5>
+                    <div class="tools">
+                        <div class="tools-list">
+                            HTML
+                        </div>
+                        <div class="tools-list">
+                            CSS
+                        </div>
+                        <div class="tools-list">
+                            GIT
+                        </div>
+                        <div class="tools-list">
+                            Github
+                        </div>
+                    </div>
+                    <h5>Lihat Langsung</h5>
+                    <a href="https://github.com/WiLmarcKiu/Portal-Pariwisata" target="_blank">Link Proyek</a>
                 </div>
             </div>
         </div>
@@ -363,11 +569,12 @@ include 'sendEmail.php';
                             <h3>Ayo diskusikan proyek kamu</h3>
                             <li class="contact-list">
                                 <h4><i class="fa-solid fa-phone"></i> Telepon Saya</h4>
-                                <span>+62 852-389-7033</span>
+                                <span>+62 852-389-707-33</span>
                             </li>
                             <li class="contact-list">
                                 <h4><i class="fa-solid fa-envelope"></i> Alamat Email</h4>
-                                <span>kiuwilmarc@gmail.com</span>
+                                <span>kiuwilmarc@gmail.com</span><br>
+                                <span>aronkiu2605@gmail.com</span>
                             </li>
                             <li class="contact-list">
                                 <h4><i class="fa-solid fa-location-dot"></i> Alamat Saya</h4>
@@ -402,8 +609,19 @@ include 'sendEmail.php';
                                     </div>
                                 </div>
 
-                                <button class="btn" type="submit" name="kirim_email">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+                                <button class="btn" id="sendEmail" type="submit" name="kirim_email">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
                             </form>
+                            <script src="js/jquery.js"></script>
+                            <?php
+                            if (isset($_POST['kirim_email'])) {
+                                echo '<script>
+                                    $(".alert-success").removeClass("hide")
+                                    setTimeout(function() {
+                                        $(".alert-success").addClass("hide")
+                                    }, 5000);
+                            </script>';
+                            }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -439,6 +657,14 @@ include 'sendEmail.php';
     <script>
         AOS.init();
     </script>
+    <!-- <script>
+        $("#sendEmail").click(() => {
+            $(".alert-success").removeClass("hide")
+            setTimeout(function() {
+                $(".alert-success").addClass("hide")
+            }, 5000);
+        })
+    </script> -->
 </body>
 
 </html>
