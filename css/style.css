@@ -304,7 +304,7 @@ header .navbar .navigation .nav-items .nav-close-btn {
     -o-border-radius: 8px;
     transition: .4s;
     display: flex;
-    width: 185px;
+    width: 170px;
     position: relative;
 }
 
@@ -546,12 +546,12 @@ header .navbar .navigation .nav-items .nav-close-btn {
 }
 
 #deskripsi-about p span {
-    color: var(--second-color);
+    color: var(--first-color);
     font-size: 1em;
     font-weight: bold;
 }
 
-#deskripsi-about button {
+#deskripsi-about a {
     padding: .7rem 2.7rem;
     color: #FFF;
     background: var(--second-color);
@@ -560,6 +560,7 @@ header .navbar .navigation .nav-items .nav-close-btn {
     transition: .4s;
     display: flex;
     position: relative;
+    width: 205px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
@@ -570,7 +571,7 @@ header .navbar .navigation .nav-items .nav-close-btn {
     -o-transition: .4s;
 }
 
-#deskripsi-about button:hover {
+#deskripsi-about a:hover {
     transform: translateY(-6px);
     background: var(--hover-color);
     -webkit-transform: translateY(-6px);
@@ -579,7 +580,7 @@ header .navbar .navigation .nav-items .nav-close-btn {
     -o-transform: translateY(-6px);
 }
 
-#deskripsi-about button:hover::before {
+#deskripsi-about a:hover::before {
     content: "";
 
 }
@@ -606,8 +607,12 @@ header .navbar .navigation .nav-items .nav-close-btn {
 }
 
 #skill #list-skills i {
-    color: var(--second-color);
+    color: var(--third-color);
     font-size: 4em;
+}
+
+#skill #list-skills i:hover {
+    color: var(--second-color);
 }
 
 .theme-btn {
@@ -661,7 +666,7 @@ header .navbar .navigation .nav-items .nav-close-btn {
 
 
 #proyek .card {
-    margin: 4px -8px;
+    margin: .5rem -.2rem;
 }
 
 #proyek .card {
@@ -855,8 +860,12 @@ header .navbar .navigation .nav-items .nav-close-btn {
 
 }
 
+#contact {
+    padding-top: 1.5rem;
+}
+
 #contact .container {
-    padding: 3rem 9%;
+    padding: 1.5rem 9% 3rem;
 }
 
 #contact #page-contact {
@@ -892,7 +901,8 @@ header .navbar .navigation .nav-items .nav-close-btn {
 }
 
 #contact #page-contact #contact-content li span {
-    font-size: .8em;
+    font-size: .9em;
+    font-weight: 300;
 }
 
 #contact #page-contact #contact-content h5 {
@@ -901,7 +911,7 @@ header .navbar .navigation .nav-items .nav-close-btn {
 }
 
 #contact #page-contact #contact-content h5 span {
-    font-weight: 900;
+    font-weight: 400;
 }
 
 #contact #page-contact #contact-content form ::placeholder {
@@ -1131,9 +1141,9 @@ footer #wave4 {
 
 @media (max-width: 970px) {
 
-    .social a:hover {
+    /* .social a:hover {
         color: #FFF;
-    }
+    } */
 }
 
 @media (max-width: 768px) {

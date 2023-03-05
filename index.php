@@ -96,7 +96,7 @@
                     <h2>Halo, Saya <span class="efek-ketik"></span></h2>
                     <h3><span>Front End Developer</span></h3>
                     <p>Saya seorang Frontend Web Developer yang membangun Front-end Situs Web dan Aplikasi Web yang mengarah pada kesuksesan produk secara keseluruhan.</p>
-                    <a href="#contact" id="btn">Hubungi saya</a>
+                    <a href="#proyek" id="btn">Proyek Saya</a>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-5" id="img-home" style="padding-top: 2rem;">
                     <img src="img/homeAron.png" class="img" alt="">
@@ -122,7 +122,8 @@
                 </div>
                 <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center" class="col-lg-8 col-md-8 col-sm-10" id="deskripsi-about">
                     <p>Saya seorang <span>Frontend Web Developer</span> yang membangun Front-end Situs Web dan Aplikasi Web yang mengarah pada kesuksesan produk secara keseluruhan. Saya merancang dan membuat kode yang indah dari hal-hal yang sederhana, dan saya menyukai apa yang saya lakukan. Saya suka membuat produk frontend yang solid dan dapat diskalakan dengan <span>pengalaman pengguna</span> yang luar biasa.</p>
-                    <button class="resume">Resume</button>
+                    <p>Saya terbuka untuk <span>peluang kerja</span> dimana saya dapat berkontribusi, belajar, dan berkembang. Jika Anda memiliki peluang bagus yang sesuai dengan <span>keahlian</span> dan <span>pengalaman</span> saya, jangan ragu untuk menghubungi saya.</p>
+                    <a href="#contact" class="contact">Hubungi Saya</a>
                 </div>
             </div>
         </div>
@@ -142,43 +143,43 @@
                     </center>
                 </div>
                 <div class="text-center" id="list-skills">
-                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
                         <i class="fa-brands fa-html5"></i>
                         <p>HTML</p>
                     </div>
-                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
                         <i class="fa-brands fa-css3-alt"></i>
                         <p>CSS</p>
                     </div>
-                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
                         <i class="fa-brands fa-square-js"></i>
                         <p>Javascript</p>
                     </div>
-                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
                         <i class="fa-brands fa-php"></i>
                         <p>PHP</p>
                     </div>
-                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
                         <i class="fa-brands fa-react"></i>
                         <p>React Js</p>
                     </div>
-                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
                         <i class="fa-solid fa-database"></i>
                         <p>MySQL</p>
                     </div>
-                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="box">
                         <i class="fa-brands fa-bootstrap"></i>
                         <p>Bootstrap</p>
                     </div>
-                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="box">
                         <i class="fa-brands fa-npm"></i>
                         <p>NPM</p>
                     </div>
-                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="box">
                         <i class="fa-brands fa-git-alt"></i>
                         <p>GIT</p>
                     </div>
-                    <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="box">
                         <i class="fa-brands fa-github"></i>
                         <p>Github</p>
                     </div>
@@ -245,7 +246,7 @@
                         </div>
                     </a>
                 </div>
-                <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="col-lg-4 col-md-5 col-sm-6">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-lg-4 col-md-5 col-sm-6">
                     <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek4">
                         <div class="card">
                             <div class="img-proyek">
@@ -260,7 +261,7 @@
                         </div>
                     </a>
                 </div>
-                <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-lg-4 col-md-5 col-sm-6">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="col-lg-4 col-md-5 col-sm-6">
                     <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek5">
                         <div class="card">
                             <div class="img-proyek">
@@ -275,7 +276,7 @@
                         </div>
                     </a>
                 </div>
-                <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="col-lg-4 col-md-5 col-sm-6">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="col-lg-4 col-md-5 col-sm-6">
                     <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek6">
                         <div class="card">
                             <div class="img-proyek">
@@ -563,10 +564,10 @@
                     </center>
                 </div>
 
-                <div data-aos="flip-left" data-aos-duration="1500" data-aos-anchor-placement="top-center" id="page-contact">
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-center" id="page-contact">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6" id="contact-content">
-                            <h3>Ayo diskusikan proyek kamu</h3>
+                            <h3>Ayo berdiskusi bersama</h3>
                             <li class="contact-list">
                                 <h4><i class="fa-solid fa-phone"></i> Telepon Saya</h4>
                                 <span>+62 852-389-707-33</span>
@@ -582,7 +583,7 @@
                             </li>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6" id="contact-content">
-                            <h5>Saya selalu terbuka untuk mendiskusikan pekerjaan membuat produk <span>website atau bermitra.</span></h5>
+                            <h5>Saya selalu terbuka untuk mendiskusikan <span>pekerjaan</span> dan produk <span>website.</span></h5>
                             <form action="" method="post">
                                 <div class="form-input">
                                     <div class="row">
@@ -611,14 +612,15 @@
 
                                 <button class="btn" id="sendEmail" type="submit" name="kirim_email">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
                             </form>
-                            <script src="js/jquery.js"></script>
+                            <!-- <script src="js/jquery.js"></script> -->
                             <?php
                             if (isset($_POST['kirim_email'])) {
                                 echo '<script>
-                                    $(".alert-success").removeClass("hide")
-                                    setTimeout(function() {
-                                        $(".alert-success").addClass("hide")
-                                    }, 5000);
+                                const alert = document.querySelector(".alert-success")
+                                alert.classList.remove("hide")
+                                setTimeout(function() {
+                                    alert.classList.add("hide")
+                                }, 5000);
                             </script>';
                             }
                             ?>
