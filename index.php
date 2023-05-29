@@ -1,0 +1,690 @@
+<?php
+// error_reporting(0);
+// include 'sendEmail.php';
+?>
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WiLmarcKiu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ALERT -->
+    <div class="alert-success hide">
+        <span>Terima kasih sudah menghubungi saya.</span>
+    </div>
+
+    <!-- <div class="alert-error">
+        <span>Ada yang salah! Silakan coba lagi.</span>
+    </div> -->
+    <!-- END ALERT -->
+
+
+    <!-- SOCIAL MEDIA -->
+    <div class="social">
+        <a href="https://wa.me/6285238970733" target="_blank">WhatsApp<i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/aronkiu_/?hl=id" target="_blank">Instagram<i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/WiLmarcKiu" target="_blank">Github<i class="fa-brands fa-github"></i></a>
+    </div>
+    <!-- END SOCIAL MEDIA -->
+
+
+    <!-- PRELOADER -->
+    <div class="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!-- END PRELOADER -->
+
+
+    <!-- SCROLL TOP BUTTON -->
+    <div class="scrollToTop-btn">
+        <center><i class="fas fa-arrow-up align-middle"></i></center>
+    </div>
+    <!-- END SCROLL TOP BUTTON -->
+
+
+    <!-- BUTTON DARK & LIGHT THEME -->
+    <div class="theme-btn">
+        <center><i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </center>
+    </div>
+    <!-- END BUTTON DARK & LIGHT THEME -->
+
+
+    <!-- NAVBAR -->
+    <header>
+        <a href="#" class="logo">WiLmarc<span style="color: #614FD0;">Kiu.</span></a>
+        <nav class="navbar">
+            <div class="navigation">
+                <div class="nav-items">
+                    <div class="nav-close-btn">
+                        <i class="fas fa-times" id="close"></i>
+                    </div>
+                    <a href="#home">Home</a>
+                    <a href="#about">Profil</a>
+                    <a href="#skill">Keahlian</a>
+                    <a href="#proyek">Proyek</a>
+                    <a href="#contact">Hubungi Saya</a>
+                </div>
+            </div>
+
+            <div class="nav-menu-btn">
+                <!-- <i class="fa-solid fa-magnifying-glass" id="search-icon"></i> -->
+                <i class="fa-solid fa-bars" id="menu-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- END NAVBAR -->
+
+
+    <!-- HOME -->
+    <section id="home">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-6 col-sm-6" id="text-home" style="padding-top: 4rem;">
+                    <h2>Halo, Saya <span class="efek-ketik"></span></h2>
+                    <h3><span>Fullstack Developer</span></h3>
+                    <p>Saya seorang Fullstack Web Developer yang membangun Situs Web dan Aplikasi Web yang mengarah pada kesuksesan produk secara keseluruhan.</p>
+                    <a href="#proyek" id="btn">Proyek Saya</a>
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-5" id="img-home" style="padding-top: 2rem;">
+                    <img src="img/homeAron.png" class="img" alt="">
+                </div>
+            </div>
+        </div>
+        <br>
+        <a href="#about" class="scroll-down pt-2">Gulir ke bawah &nbsp;<i class="fas fa-arrow-down"></i></a>
+    </section>
+    <!-- END HOME -->
+
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-align-center">
+                <div class="heading text-align-center">
+                    <h1 class="section-title-01">Profil Saya</h1>
+                    <h2 class="section-title-02">Profil Saya</h2>
+                    <center>
+                        <div class="garis-bawah"></div>
+                    </center>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center" class="col-lg-8 col-md-8 col-sm-10" id="deskripsi-about">
+                    <p>Saya seorang <span>Fullstack Web Developer</span> yang membangun Situs Web yang mengarah pada kesuksesan produk secara keseluruhan. Saya merancang dan membuat kode yang indah dari hal-hal yang sederhana, dan saya menyukai apa yang saya lakukan. Saya suka membuat produk frontend yang solid dan dapat diskalakan dengan <span>pengalaman pengguna</span> yang luar biasa.</p>
+                    <p>Saya merupakan lulusan dari <span>STIKOM</span> Uyelindo Kupang, jurusan <span>Teknik Informatika S1</span> pada bulan Oktober tahun 2022</p>
+                    <p>Saya terbuka untuk <span>peluang kerja</span> dimana saya dapat berkontribusi, belajar, dan berkembang. Jika Anda memiliki peluang bagus yang sesuai dengan <span>keahlian</span> dan <span>pengalaman</span> saya, jangan ragu untuk menghubungi saya.</p>
+                    <a href="#contact" class="contact">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END ABOUT -->
+
+
+    <!-- SKILLS -->
+    <section id="skill">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="heading text-align-center">
+                    <h1 class="section-title-01">Keahlian</h1>
+                    <h2 class="section-title-02">Keahlian</h2>
+                    <center>
+                        <div class="garis-bawah"></div>
+                    </center>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">Frontend Developer</div>
+                    <div id="list-skills">
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
+                            <i class="fa-brands fa-html5"></i>
+                            <p>HTML</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <p>CSS</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                            <i class="fa-brands fa-square-js"></i>
+                            <p>Javascript</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                            <i class="fa-brands fa-react"></i>
+                            <p>React Js</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <p>Bootstrap</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                            <i class="fa-brands fa-git-alt"></i>
+                            <p>GIT</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">UI Designer</div>
+                    <div id="list-skills">
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
+                            <i class="fa-brands fa-figma"></i>
+                            <p>Figma</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">Backend Developer</div>
+                    <div id="list-skills">
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                            <i class="fa-brands fa-php"></i>
+                            <p>PHP</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
+                            <i class="fa-brands fa-laravel"></i>
+                            <p>Laravel</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
+                            <i class="fa-solid fa-database"></i>
+                            <p>MySQL</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="box">
+                            <i class="fa-brands fa-github"></i>
+                            <p>Github</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SKILLS -->
+
+
+    <!-- PROYEK SAYA -->
+    <section id="proyek">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="heading text-align-center">
+                    <h1 class="section-title-01">Proyek Saya</h1>
+                    <h2 class="section-title-02">Proyek Saya</h2>
+                    <center>
+                        <div class="garis-bawah"></div>
+                    </center>
+                </div>
+                <div data-aos="zoom-out-right" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-lg-4 col-md-5 col-sm-6">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek1">
+                        <div class="card">
+                            <div class="img-proyek">
+                                <img src="img/marketplace.png" alt="...">
+                            </div>
+                            <div class="overlay overlayPopup">
+                                <div class="text">
+                                    <h3>Bisnis & Usaha</h3>
+                                    <p>marketplace</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="zoom-out-left" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="col-lg-4 col-md-5 col-sm-6">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek2">
+                        <div class="card">
+                            <div class="img-proyek">
+                                <img src="img/movies.png" alt="...">
+                            </div>
+                            <div class="overlay overlayPopup">
+                                <div class="text">
+                                    <h3>Portal Informasi</h3>
+                                    <p>Movies dengan data API</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="col-lg-4 col-md-5 col-sm-6">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek3">
+                        <div class="card">
+                            <div class="img-proyek">
+                                <img src="img/qrcode.png" alt="...">
+                            </div>
+                            <div class="overlay overlayPopup">
+                                <div class="text">
+                                    <h3>Acara & Wedding</h3>
+                                    <p>buku tamu dengan sistem barcode</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-lg-4 col-md-5 col-sm-6">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek4">
+                        <div class="card">
+                            <div class="img-proyek">
+                                <img src="img/invitation.png" alt="...">
+                            </div>
+                            <div class="overlay overlayPopup">
+                                <div class="text">
+                                    <h3>Portal Informasi</h3>
+                                    <p>Undangan Pernikahan Elektronik</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="col-lg-4 col-md-5 col-sm-6">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek5">
+                        <div class="card">
+                            <div class="img-proyek">
+                                <img src="img/toko_online.png" alt="...">
+                            </div>
+                            <div class="overlay overlayPopup">
+                                <div class="text">
+                                    <h3>Bisnis & Usaha</h3>
+                                    <p>Toko Online</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="col-lg-4 col-md-5 col-sm-6">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalProyek6">
+                        <div class="card">
+                            <div class="img-proyek">
+                                <img src="img/travel.png" alt="...">
+                            </div>
+                            <div class="overlay overlayPopup">
+                                <div class="text">
+                                    <h3>Portal Informasi</h3>
+                                    <p>Tempat Wisata</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+
+
+    <!-- MODAL PROYEK -->
+    <div class="modal fade" id="modalProyek1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="staticBackdropLabel">Marketplace</h6>
+                    <button type="button" class="close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/mobile1.png" alt="">
+                    <p>
+                        Gambar diatas merupakan tampilan dashboard Website Marketplace CofeeShop.
+                    </p>
+                    <p>
+                        Jangan ragu untuk memeriksa Proyek dengan mengunjungi Link Proyek.
+                    </p>
+                    <h5>Tools yang digunakan</h5>
+                    <div class="tools">
+                        <div class="tools-list">
+                            HTML
+                        </div>
+                        <div class="tools-list">
+                            CSS
+                        </div>
+                        <div class="tools-list">
+                            Javascript
+                        </div>
+                        <div class="tools-list">
+                            PHP
+                        </div>
+                        <div class="tools-list">
+                            GIT
+                        </div>
+                        <div class="tools-list">
+                            Github
+                        </div>
+                    </div>
+                    <h5>Lihat Langsung</h5>
+                    <a href="https://github.com/WiLmarcKiu/Marketplace-CofeeShop-FullStack" target="_blank">Link Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProyek2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="staticBackdropLabel">Movies API</h6>
+                    <button type="button" class="close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/mobile2.png" alt="">
+                    <p>
+                        Gambar diatas merupakan tampilan dashboard Website Movies dengan data API.
+                    </p>
+                    <p>
+                        Jangan ragu untuk memeriksa Proyek dengan mengunjungi Link Proyek.
+                    </p>
+                    <h5>Tools yang digunakan</h5>
+                    <div class="tools">
+                        <div class="tools-list">
+                            HTML
+                        </div>
+                        <div class="tools-list">
+                            CSS
+                        </div>
+                        <div class="tools-list">
+                            Javascript
+                        </div>
+                        <div class="tools-list">
+                            React Js
+                        </div>
+                        <div class="tools-list">
+                            GIT
+                        </div>
+                        <div class="tools-list">
+                            Github
+                        </div>
+                    </div>
+                    <h5>Lihat Langsung</h5>
+                    <a href="https://github.com/WiLmarcKiu/Movies-React-Api" target="_blank">Link Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProyek3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="staticBackdropLabel">Acara & Wedding</h6>
+                    <button type="button" class="close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/mobile3.png" alt="">
+                    <p>
+                        Gambar diatas merupakan tampilan dashboard Website Buku Tamu dan Check-in Card dengan sistem Barcode.
+                    </p>
+                    <p>
+                        Jangan ragu untuk memeriksa Proyek dengan mengunjungi Link Proyek.
+                    </p>
+                    <h5>Tools yang digunakan</h5>
+                    <div class="tools">
+                        <div class="tools-list">
+                            HTML
+                        </div>
+                        <div class="tools-list">
+                            CSS
+                        </div>
+                        <div class="tools-list">
+                            Javascript
+                        </div>
+                        <div class="tools-list">
+                            PHP
+                        </div>
+                        <div class="tools-list">
+                            GIT
+                        </div>
+                        <div class="tools-list">
+                            Github
+                        </div>
+                    </div>
+                    <h5>Lihat Langsung</h5>
+                    <a href="https://github.com/WiLmarcKiu/ChekIn-Barcode-FullStack" target="_blank">Link Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProyek4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="staticBackdropLabel">E-Invitation</h6>
+                    <button type="button" class="close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/mobileUpdate.png" alt="">
+                    <p>
+                        Gambar diatas merupakan tampilan dashboard Website E-Invitation atau undangan pernikahan elektronik.
+                    </p>
+                    <p>
+                        Jangan ragu untuk memeriksa Proyek dengan mengunjungi Link Proyek.
+                    </p>
+                    <h5>Tools yang digunakan</h5>
+                    <div class="tools">
+                        <div class="tools-list">
+                            HTML
+                        </div>
+                        <div class="tools-list">
+                            CSS
+                        </div>
+                        <div class="tools-list">
+                            Javascript
+                        </div>
+                        <div class="tools-list">
+                            PHP
+                        </div>
+                        <div class="tools-list">
+                            GIT
+                        </div>
+                        <div class="tools-list">
+                            Github
+                        </div>
+                    </div>
+                    <h5>Lihat Langsung</h5>
+                    <a href="https://github.com/WiLmarcKiu/Laporan-Harian-Pegawai-FullStack" target="_blank">Link Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProyek5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="staticBackdropLabel">Toko Online</h6>
+                    <button type="button" class="close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/mobile5.png" alt="">
+                    <p>
+                        Gambar diatas merupakan tampilan dashboard Website Toko Online SkinCare Wanita.
+                    </p>
+                    <p>
+                        Jangan ragu untuk memeriksa Proyek dengan mengunjungi Link Proyek.
+                    </p>
+                    <h5>Tools yang digunakan</h5>
+                    <div class="tools">
+                        <div class="tools-list">
+                            HTML
+                        </div>
+                        <div class="tools-list">
+                            CSS
+                        </div>
+                        <div class="tools-list">
+                            Javascript
+                        </div>
+                        <div class="tools-list">
+                            PHP
+                        </div>
+                        <div class="tools-list">
+                            GIT
+                        </div>
+                        <div class="tools-list">
+                            Github
+                        </div>
+                    </div>
+                    <h5>Lihat Langsung</h5>
+                    <a href="https://github.com/WiLmarcKiu/OnlineShop-FullStack" target="_blank">Link Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalProyek6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="staticBackdropLabel">Tempat Wisata</h6>
+                    <button type="button" class="close" data-bs-dismiss="modal"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/mobile6.png" alt="">
+                    <p>
+                        Gambar diatas merupakan tampilan dashboard Website Portal Informasi tempat Wisata.
+                    </p>
+                    <p>
+                        Jangan ragu untuk memeriksa Proyek dengan mengunjungi Link Proyek.
+                    </p>
+                    <h5>Tools yang digunakan</h5>
+                    <div class="tools">
+                        <div class="tools-list">
+                            HTML
+                        </div>
+                        <div class="tools-list">
+                            CSS
+                        </div>
+                        <div class="tools-list">
+                            GIT
+                        </div>
+                        <div class="tools-list">
+                            Github
+                        </div>
+                    </div>
+                    <h5>Lihat Langsung</h5>
+                    <a href="https://github.com/WiLmarcKiu/Portal-Pariwisata" target="_blank">Link Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END MODAL PROYEK -->
+    <!-- END PROYEK SAYA -->
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="heading text-align-center">
+                    <h1 class="section-title-01">Hubungi Saya</h1>
+                    <h2 class="section-title-02">Hubungi Saya</h2>
+                    <center>
+                        <div class="garis-bawah"></div>
+                    </center>
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-center" id="page-contact">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6" id="contact-content">
+                            <h3>Ayo berdiskusi bersama</h3>
+                            <li class="contact-list">
+                                <h4><i class="fa-solid fa-phone"></i> Telepon Saya</h4>
+                                <span>+62 852-389-707-33</span>
+                            </li>
+                            <li class="contact-list">
+                                <h4><i class="fa-solid fa-envelope"></i> Alamat Email</h4>
+                                <span>kiuwilmarc@gmail.com</span><br>
+                                <span>aronkiu2605@gmail.com</span>
+                            </li>
+                            <li class="contact-list">
+                                <h4><i class="fa-solid fa-location-dot"></i> Alamat Saya</h4>
+                                <span>Jln. Damai II, Gang. Damai 1, Oebufu, Oebobo, Kupang, Nusa Tenggara Timur.</span>
+                            </li>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6" id="contact-content">
+                            <h5>Saya selalu terbuka untuk mendiskusikan <span>pekerjaan</span> dan produk <span>website.</span></h5>
+                            <form action="" method="post">
+                                <div class="form-input">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <input type="text" class="form-control" name="nama" placeholder="Nama" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-input">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-control" name="subjek" placeholder="Subjek" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-input">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <textarea type="text" rows="3" class="form-control" name="pesan" placeholder="Pesan" required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="btn" id="sendEmail" type="submit" name="kirim_email">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+                            </form>
+                            <!-- <script src="js/jquery.js"></script> -->
+                            <?php
+if (isset($_POST['kirim_email'])) {
+    echo '<script>
+                                const alert = document.querySelector(".alert-success")
+                                alert.classList.remove("hide")
+                                setTimeout(function() {
+                                    alert.classList.add("hide")
+                                }, 5000);
+                            </script>';
+}
+?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CONTACT -->
+
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <p>&copy;2022 WiLmarcKiu | My PortfoLio.</p>
+    </footer>
+    <!-- END FOOTER -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/943a58e089.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- <script>
+        $("#sendEmail").click(() => {
+            $(".alert-success").removeClass("hide")
+            setTimeout(function() {
+                $(".alert-success").addClass("hide")
+            }, 5000);
+        })
+    </script> -->
+</body>
+
+</html>
