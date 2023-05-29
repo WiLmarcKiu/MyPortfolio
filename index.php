@@ -94,8 +94,8 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-6 col-sm-6" id="text-home" style="padding-top: 4rem;">
                     <h2>Halo, Saya <span class="efek-ketik"></span></h2>
-                    <h3><span>Front End Developer</span></h3>
-                    <p>Saya seorang Frontend Web Developer yang membangun Front-end Situs Web dan Aplikasi Web yang mengarah pada kesuksesan produk secara keseluruhan.</p>
+                    <h3><span>Fullstack Developer</span></h3>
+                    <p>Saya seorang Fullstack Web Developer yang membangun Situs Web dan Aplikasi Web yang mengarah pada kesuksesan produk secara keseluruhan.</p>
                     <a href="#proyek" id="btn">Proyek Saya</a>
                 </div>
                 <div class="col-lg-5 col-md-6 col-sm-5" id="img-home" style="padding-top: 2rem;">
@@ -121,7 +121,8 @@
                     </center>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-center" class="col-lg-8 col-md-8 col-sm-10" id="deskripsi-about">
-                    <p>Saya seorang <span>Frontend Web Developer</span> yang membangun Front-end Situs Web dan Aplikasi Web yang mengarah pada kesuksesan produk secara keseluruhan. Saya merancang dan membuat kode yang indah dari hal-hal yang sederhana, dan saya menyukai apa yang saya lakukan. Saya suka membuat produk frontend yang solid dan dapat diskalakan dengan <span>pengalaman pengguna</span> yang luar biasa.</p>
+                    <p>Saya seorang <span>Fullstack Web Developer</span> yang membangun Situs Web yang mengarah pada kesuksesan produk secara keseluruhan. Saya merancang dan membuat kode yang indah dari hal-hal yang sederhana, dan saya menyukai apa yang saya lakukan. Saya suka membuat produk frontend yang solid dan dapat diskalakan dengan <span>pengalaman pengguna</span> yang luar biasa.</p>
+                    <p>Saya merupakan lulusan dari <span>STIKOM</span> Uyelindo Kupang, jurusan <span>Teknik Informatika S1</span> pada bulan Oktober tahun 2022</p>
                     <p>Saya terbuka untuk <span>peluang kerja</span> dimana saya dapat berkontribusi, belajar, dan berkembang. Jika Anda memiliki peluang bagus yang sesuai dengan <span>keahlian</span> dan <span>pengalaman</span> saya, jangan ragu untuk menghubungi saya.</p>
                     <a href="#contact" class="contact">Hubungi Saya</a>
                 </div>
@@ -134,7 +135,7 @@
     <!-- SKILLS -->
     <section id="skill">
         <div class="container">
-            <div class="row justify-content-center align-items-center text-align-center">
+            <div class="row justify-content-center">
                 <div class="heading text-align-center">
                     <h1 class="section-title-01">Keahlian</h1>
                     <h2 class="section-title-02">Keahlian</h2>
@@ -142,46 +143,63 @@
                         <div class="garis-bawah"></div>
                     </center>
                 </div>
-                <div class="text-center" id="list-skills">
-                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
-                        <i class="fa-brands fa-html5"></i>
-                        <p>HTML</p>
+                <div class="col-md-3">
+                    <div class="text-center">Frontend Developer</div>
+                    <div id="list-skills">
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
+                            <i class="fa-brands fa-html5"></i>
+                            <p>HTML</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <p>CSS</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                            <i class="fa-brands fa-square-js"></i>
+                            <p>Javascript</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                            <i class="fa-brands fa-react"></i>
+                            <p>React Js</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                            <i class="fa-brands fa-bootstrap"></i>
+                            <p>Bootstrap</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                            <i class="fa-brands fa-git-alt"></i>
+                            <p>GIT</p>
+                        </div>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
-                        <i class="fa-brands fa-css3-alt"></i>
-                        <p>CSS</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">UI Designer</div>
+                    <div id="list-skills">
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
+                            <i class="fa-brands fa-figma"></i>
+                            <p>Figma</p>
+                        </div>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
-                        <i class="fa-brands fa-square-js"></i>
-                        <p>Javascript</p>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
-                        <i class="fa-brands fa-php"></i>
-                        <p>PHP</p>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
-                        <i class="fa-brands fa-react"></i>
-                        <p>React Js</p>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
-                        <i class="fa-solid fa-database"></i>
-                        <p>MySQL</p>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="box">
-                        <i class="fa-brands fa-bootstrap"></i>
-                        <p>Bootstrap</p>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="box">
-                        <i class="fa-brands fa-npm"></i>
-                        <p>NPM</p>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="box">
-                        <i class="fa-brands fa-git-alt"></i>
-                        <p>GIT</p>
-                    </div>
-                    <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="box">
-                        <i class="fa-brands fa-github"></i>
-                        <p>Github</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">Backend Developer</div>
+                    <div id="list-skills">
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="250" class="box">
+                            <i class="fa-brands fa-php"></i>
+                            <p>PHP</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
+                            <i class="fa-brands fa-laravel"></i>
+                            <p>Laravel</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="box">
+                            <i class="fa-solid fa-database"></i>
+                            <p>MySQL</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" data-aos-delay="500" class="box">
+                            <i class="fa-brands fa-github"></i>
+                            <p>Github</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -334,7 +352,7 @@
                         </div>
                     </div>
                     <h5>Lihat Langsung</h5>
-                    <a href="https://github.com/WiLmarcKiu/Marketplace-CofeeShop-FullStack" target="_blank">Link Proyek</a>
+                    <a href="https://github.com/WiLmarcKiu/Marketplace-CofeeShop-FullStack" target="_blank">Link Github</a>
                 </div>
             </div>
         </div>
@@ -377,7 +395,7 @@
                         </div>
                     </div>
                     <h5>Lihat Langsung</h5>
-                    <a href="https://github.com/WiLmarcKiu/Movies-React-Api" target="_blank">Link Proyek</a>
+                    <a href="https://github.com/WiLmarcKiu/Movies-React-Api" target="_blank">Link Github</a>
                 </div>
             </div>
         </div>
@@ -420,7 +438,7 @@
                         </div>
                     </div>
                     <h5>Lihat Langsung</h5>
-                    <a href="https://github.com/WiLmarcKiu/ChekIn-Barcode-FullStack" target="_blank">Link Proyek</a>
+                    <a href="https://github.com/WiLmarcKiu/ChekIn-Barcode-FullStack" target="_blank">Link Github</a>
                 </div>
             </div>
         </div>
@@ -463,7 +481,7 @@
                         </div>
                     </div>
                     <h5>Lihat Langsung</h5>
-                    <a href="https://github.com/WiLmarcKiu/Laporan-Harian-Pegawai-FullStack" target="_blank">Link Proyek</a>
+                    <a href="https://github.com/WiLmarcKiu/Laporan-Harian-Pegawai-FullStack" target="_blank">Link Github</a>
                 </div>
             </div>
         </div>
@@ -506,7 +524,7 @@
                         </div>
                     </div>
                     <h5>Lihat Langsung</h5>
-                    <a href="https://github.com/WiLmarcKiu/OnlineShop-FullStack" target="_blank">Link Proyek</a>
+                    <a href="https://github.com/WiLmarcKiu/OnlineShop-FullStack" target="_blank">Link Github</a>
                 </div>
             </div>
         </div>
@@ -543,7 +561,7 @@
                         </div>
                     </div>
                     <h5>Lihat Langsung</h5>
-                    <a href="https://github.com/WiLmarcKiu/Portal-Pariwisata" target="_blank">Link Proyek</a>
+                    <a href="https://github.com/WiLmarcKiu/Portal-Pariwisata" target="_blank">Link Github</a>
                 </div>
             </div>
         </div>
@@ -614,16 +632,16 @@
                             </form>
                             <!-- <script src="js/jquery.js"></script> -->
                             <?php
-                            if (isset($_POST['kirim_email'])) {
-                                echo '<script>
+if (isset($_POST['kirim_email'])) {
+    echo '<script>
                                 const alert = document.querySelector(".alert-success")
                                 alert.classList.remove("hide")
                                 setTimeout(function() {
                                     alert.classList.add("hide")
                                 }, 5000);
                             </script>';
-                            }
-                            ?>
+}
+?>
                         </div>
                     </div>
                 </div>
